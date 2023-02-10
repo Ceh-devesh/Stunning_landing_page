@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+
+main {
+    margin: 80px 0 120px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blue-square {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: #5243C0;
+}
+
+aside{
+    width: 40%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+aside>h1 {
+    font-size: 4.5em;
+}
+
+#para-section {
+    display: inline-block;
+    margin: 40px 0 30px 0;
+}
+
+#para-section>p {
+    color: rgb(136, 136, 136);
+    font-weight: bolder;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
+#new-account-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#new-account-section input {
+    color: #ffffff;
+    background-color: #5243C0;
+    padding: 18px 40px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.8em;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+#new-account-section img {
+    width: 50px;
+    height: 50px;
+    margin: 0 2px;
+}
+
+#up-arrow {
+    cursor: not-allowed;
+}
+
+#down-arrow {
+    cursor: pointer;
+}
+
+#card {
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px;
+}
+
+.card h4 {
+    margin-left: 20px;
+}
+
+.card-img {
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+}
+
+.card .date {
+    margin-left: 20px;
+    color: lightgray;
+}
+
+.div-h4 {
+    width: 150px;
+}
+
+.card .capsule {
+    display: inline-block;
+    width: 24px;
+    height: 12px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.card:hover {
+    transform: scaleX(1.1);
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#pink-capsule {
+    background-color: #FED7DA;
+}
+
+#red-capsule {
+    background-color: #FD6534;
+}
+
+#green-capsule {
+    background-color: #9ED095;
+}
+
+#yellow-capsule {
+    background-color: #FFE4A0;
+}
+
+#main-img {
+    padding-right: 40px;
+}
+
+#main-img>img {
+    width: 100%;
+    height: 600px;
+}

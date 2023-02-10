@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+
+#start-navbar {
+    width: 10%;
+    padding-left: 61px;
+}
+
+#start-navbar > #logo {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline 2px #8071D0;
+}
+
+ul > .menu-items {
+    margin: 0 25px;
+    color: lightgray;
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+#home>a{
+    color: black;
+    text-decoration: underline 2px #8071D0;
+}
+
+#last-navbar {
+    padding-right: 35px;
+}
+
+#last-navbar > #your-account-btn {
+    color: #a389cc;
+    background-color: #ffd8db;
+    padding: 22px 30px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.8em;
+    border-radius: 25px;
+}
